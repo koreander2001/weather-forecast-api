@@ -1,18 +1,31 @@
-version: '3.7'
+version: '3'
+
 services:
+  postgres:
+    image: postgres
+    ports:
+      - $POSTGRES_PORT:5432
+    volumes:
+      - ./dbdata:/var/lib/postgresql/data
+    environment:
+      - POSTGRES_PASSWORD
   django:
     restart: always
     build:
       context: ./django
       args:
+        - DJANGO_PROJECT_NAME
+        - POSTGRES_PORT
         - POSTGRES_PASSWORD
+    image: django-on-docker
     expose:
       - 3031
     depends_on:
       - postgres
-    command: bash -c "python manage.py migrate && gunicorn weather_forecast_api.wsgi -b 0.0.0.0:3031"
+    command: bash -c "python manage.py migrate && gunicorn ${DJANGO_PROJECT_NAME}.wsgi -b 0.0.0.0:3031"
     volumes:
-      - "staticdata:/opt/static/"
+      - ./django/apps:/opt/apps/
+      - ./staticdata:/opt/static/
     environment:
       - POSTGRES_PASSWORD
   nginx:
@@ -23,18 +36,6 @@ services:
     ports:
       - $NGINX_PORT:80
     volumes:
-      - "./nginx/:/etc/nginx/"
-      - "staticdata:/opt/apps/static/"
-  postgres:
-    image: postgres
-    ports:
-      - $POSTGRES_PORT:5432
-    volumes:
-      - "dbdata:/var/lib/postgresql/data"
-    environment:
-      - POSTGRES_PASSWORD
-
-volumes:
-  dbdata:
-  staticdata:
+      - ./nginx/:/etc/nginx/
+      - ./staticdata:/opt/apps/static/
 

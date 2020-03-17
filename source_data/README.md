@@ -5,4 +5,5 @@
 
 ## jis_x_0402.csv
 * [総務省 全国地方公共団体コード](https://www.soumu.go.jp/denshijiti/code.html)
+* [アマノ技研 地方公共団体の位置データ](https://amano-tec.com/data/localgovernments.html)
 

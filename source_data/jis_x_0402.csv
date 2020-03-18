@@ -1,4 +1,4 @@
-"city_code","subdivision_code","name","local_name","lat","lon"
+"id","subdivision_id","name","local_name","lat","lon"
 "011002","JP-01","Sapporoshi","札幌市",43.061972,141.354374
 "012025","JP-01","Hakodateshi","函館市",41.768712,140.729108
 "012033","JP-01","Otarushi","小樽市",43.190753,140.994605

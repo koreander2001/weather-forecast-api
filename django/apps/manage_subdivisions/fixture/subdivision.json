@@ -1,0 +1,378 @@
+[
+  {
+    "model": "manage_subdivisions.subdivision",
+    "pk": "JP-01",
+    "fields": {
+      "name": "Hokkaido",
+      "local_name": "北海道"
+    }
+  },
+  {
+    "model": "manage_subdivisions.subdivision",
+    "pk": "JP-02",
+    "fields": {
+      "name": "Aomori",
+      "local_name": "青森県"
+    }
+  },
+  {
+    "model": "manage_subdivisions.subdivision",
+    "pk": "JP-03",
+    "fields": {
+      "name": "Iwate",
+      "local_name": "岩手県"
+    }
+  },
+  {
+    "model": "manage_subdivisions.subdivision",
+    "pk": "JP-04",
+    "fields": {
+      "name": "Miyagi",
+      "local_name": "宮城県"
+    }
+  },
+  {
+    "model": "manage_subdivisions.subdivision",
+    "pk": "JP-05",
+    "fields": {
+      "name": "Akita",
+      "local_name": "秋田県"
+    }
+  },
+  {
+    "model": "manage_subdivisions.subdivision",
+    "pk": "JP-06",
+    "fields": {
+      "name": "Yamagata",
+      "local_name": "山形県"
+    }
+  },
+  {
+    "model": "manage_subdivisions.subdivision",
+    "pk": "JP-07",
+    "fields": {
+      "name": "Fukushima",
+      "local_name": "福島県"
+    }
+  },
+  {
+    "model": "manage_subdivisions.subdivision",
+    "pk": "JP-08",
+    "fields": {
+      "name": "Ibaraki",
+      "local_name": "茨城県"
+    }
+  },
+  {
+    "model": "manage_subdivisions.subdivision",
+    "pk": "JP-09",
+    "fields": {
+      "name": "Tochigi",
+      "local_name": "栃木県"
+    }
+  },
+  {
+    "model": "manage_subdivisions.subdivision",
+    "pk": "JP-10",
+    "fields": {
+      "name": "Gunma",
+      "local_name": "群馬県"
+    }
+  },
+  {
+    "model": "manage_subdivisions.subdivision",
+    "pk": "JP-11",
+    "fields": {
+      "name": "Saitama",
+      "local_name": "埼玉県"
+    }
+  },
+  {
+    "model": "manage_subdivisions.subdivision",
+    "pk": "JP-12",
+    "fields": {
+      "name": "Chiba",
+      "local_name": "千葉県"
+    }
+  },
+  {
+    "model": "manage_subdivisions.subdivision",
+    "pk": "JP-13",
+    "fields": {
+      "name": "Tokyo",
+      "local_name": "東京都"
+    }
+  },
+  {
+    "model": "manage_subdivisions.subdivision",
+    "pk": "JP-14",
+    "fields": {
+      "name": "Kanagawa",
+      "local_name": "神奈川県"
+    }
+  },
+  {
+    "model": "manage_subdivisions.subdivision",
+    "pk": "JP-15",
+    "fields": {
+      "name": "Niigata",
+      "local_name": "新潟県"
+    }
+  },
+  {
+    "model": "manage_subdivisions.subdivision",
+    "pk": "JP-16",
+    "fields": {
+      "name": "Toyama",
+      "local_name": "富山県"
+    }
+  },
+  {
+    "model": "manage_subdivisions.subdivision",
+    "pk": "JP-17",
+    "fields": {
+      "name": "Ishikawa",
+      "local_name": "石川県"
+    }
+  },
+  {
+    "model": "manage_subdivisions.subdivision",
+    "pk": "JP-18",
+    "fields": {
+      "name": "Fukui",
+      "local_name": "福井県"
+    }
+  },
+  {
+    "model": "manage_subdivisions.subdivision",
+    "pk": "JP-19",
+    "fields": {
+      "name": "Yamanashi",
+      "local_name": "山梨県"
+    }
+  },
+  {
+    "model": "manage_subdivisions.subdivision",
+    "pk": "JP-20",
+    "fields": {
+      "name": "Nagano",
+      "local_name": "長野県"
+    }
+  },
+  {
+    "model": "manage_subdivisions.subdivision",
+    "pk": "JP-21",
+    "fields": {
+      "name": "Gifu",
+      "local_name": "岐阜県"
+    }
+  },
+  {
+    "model": "manage_subdivisions.subdivision",
+    "pk": "JP-22",
+    "fields": {
+      "name": "Shizuoka",
+      "local_name": "静岡県"
+    }
+  },
+  {
+    "model": "manage_subdivisions.subdivision",
+    "pk": "JP-23",
+    "fields": {
+      "name": "Aichi",
+      "local_name": "愛知県"
+    }
+  },
+  {
+    "model": "manage_subdivisions.subdivision",
+    "pk": "JP-24",
+    "fields": {
+      "name": "Mie",
+      "local_name": "三重県"
+    }
+  },
+  {
+    "model": "manage_subdivisions.subdivision",
+    "pk": "JP-25",
+    "fields": {
+      "name": "Shiga",
+      "local_name": "滋賀県"
+    }
+  },
+  {
+    "model": "manage_subdivisions.subdivision",
+    "pk": "JP-26",
+    "fields": {
+      "name": "Kyoto",
+      "local_name": "京都府"
+    }
+  },
+  {
+    "model": "manage_subdivisions.subdivision",
+    "pk": "JP-27",
+    "fields": {
+      "name": "Osaka",
+      "local_name": "大阪府"
+    }
+  },
+  {
+    "model": "manage_subdivisions.subdivision",
+    "pk": "JP-28",
+    "fields": {
+      "name": "Hyogo",
+      "local_name": "兵庫県"
+    }
+  },
+  {
+    "model": "manage_subdivisions.subdivision",
+    "pk": "JP-29",
+    "fields": {
+      "name": "Nara",
+      "local_name": "奈良県"
+    }
+  },
+  {
+    "model": "manage_subdivisions.subdivision",
+    "pk": "JP-30",
+    "fields": {
+      "name": "Wakayama",
+      "local_name": "和歌山県"
+    }
+  },
+  {
+    "model": "manage_subdivisions.subdivision",
+    "pk": "JP-31",
+    "fields": {
+      "name": "Tottori",
+      "local_name": "鳥取県"
+    }
+  },
+  {
+    "model": "manage_subdivisions.subdivision",
+    "pk": "JP-32",
+    "fields": {
+      "name": "Shimane",
+      "local_name": "島根県"
+    }
+  },
+  {
+    "model": "manage_subdivisions.subdivision",
+    "pk": "JP-33",
+    "fields": {
+      "name": "Okayama",
+      "local_name": "岡山県"
+    }
+  },
+  {
+    "model": "manage_subdivisions.subdivision",
+    "pk": "JP-34",
+    "fields": {
+      "name": "Hiroshima",
+      "local_name": "広島県"
+    }
+  },
+  {
+    "model": "manage_subdivisions.subdivision",
+    "pk": "JP-35",
+    "fields": {
+      "name": "Yamaguchi",
+      "local_name": "山口県"
+    }
+  },
+  {
+    "model": "manage_subdivisions.subdivision",
+    "pk": "JP-36",
+    "fields": {
+      "name": "Tokushima",
+      "local_name": "徳島県"
+    }
+  },
+  {
+    "model": "manage_subdivisions.subdivision",
+    "pk": "JP-37",
+    "fields": {
+      "name": "Kagawa",
+      "local_name": "香川県"
+    }
+  },
+  {
+    "model": "manage_subdivisions.subdivision",
+    "pk": "JP-38",
+    "fields": {
+      "name": "Ehime",
+      "local_name": "愛媛県"
+    }
+  },
+  {
+    "model": "manage_subdivisions.subdivision",
+    "pk": "JP-39",
+    "fields": {
+      "name": "Kochi",
+      "local_name": "高知県"
+    }
+  },
+  {
+    "model": "manage_subdivisions.subdivision",
+    "pk": "JP-40",
+    "fields": {
+      "name": "Fukuoka",
+      "local_name": "福岡県"
+    }
+  },
+  {
+    "model": "manage_subdivisions.subdivision",
+    "pk": "JP-41",
+    "fields": {
+      "name": "Saga",
+      "local_name": "佐賀県"
+    }
+  },
+  {
+    "model": "manage_subdivisions.subdivision",
+    "pk": "JP-42",
+    "fields": {
+      "name": "Nagasaki",
+      "local_name": "長崎県"
+    }
+  },
+  {
+    "model": "manage_subdivisions.subdivision",
+    "pk": "JP-43",
+    "fields": {
+      "name": "Kumamoto",
+      "local_name": "熊本県"
+    }
+  },
+  {
+    "model": "manage_subdivisions.subdivision",
+    "pk": "JP-44",
+    "fields": {
+      "name": "Oita",
+      "local_name": "大分県"
+    }
+  },
+  {
+    "model": "manage_subdivisions.subdivision",
+    "pk": "JP-45",
+    "fields": {
+      "name": "Miyazaki",
+      "local_name": "宮崎県"
+    }
+  },
+  {
+    "model": "manage_subdivisions.subdivision",
+    "pk": "JP-46",
+    "fields": {
+      "name": "Kagoshima",
+      "local_name": "鹿児島県"
+    }
+  },
+  {
+    "model": "manage_subdivisions.subdivision",
+    "pk": "JP-47",
+    "fields": {
+      "name": "Okinawa",
+      "local_name": "沖縄県"
+    }
+  }
+]

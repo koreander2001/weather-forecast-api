@@ -13,11 +13,3 @@ ARG POSTGRES_PORT
 ARG POSTGRES_PASSWORD
 ENV POSTGRES_PORT $POSTGRES_PORT
 ENV POSTGRES_PASSWORD $POSTGRES_PASSWORD
-
-RUN {\
-    echo 'try:'; \
-    echo '    from local_settings import *'; \
-    echo 'except ImportError:'; \
-    echo '    pass'; \
-} >> ./${DJANGO_PROJECT_NAME}/settings.py
-

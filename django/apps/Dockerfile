@@ -16,8 +16,7 @@ ENV POSTGRES_PASSWORD $POSTGRES_PASSWORD
 
 RUN {\
     echo 'try:'; \
-    echo '    from local_settings import *'; \
+    echo '    from ..local_settings import *'; \
     echo 'except ImportError:'; \
     echo '    pass'; \
 } >> ./${DJANGO_PROJECT_NAME}/settings.py
-

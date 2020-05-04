@@ -25,7 +25,10 @@ SECRET_KEY = 'd*qu_1q=v(7naxd&30p^m8u-mpdxkfp*oyuw5nlwua)81*zz&v'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'localhost',
+    'www.koreander2001.net',
+]
 
 
 # Application definition

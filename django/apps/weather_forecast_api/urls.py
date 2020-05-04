@@ -19,5 +19,5 @@ from django.urls import include, re_path
 
 urlpatterns = [
     re_path(r'^admin/', admin.site.urls),
-    re_path(r'^region-api/', include('manage_subdivisions.urls')),
+    re_path(r'^region/', include('region.urls')),
 ]

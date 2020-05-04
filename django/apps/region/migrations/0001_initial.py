@@ -29,7 +29,7 @@ class Migration(migrations.Migration):
                 ('local_name', models.CharField(max_length=64)),
                 ('lat', models.FloatField(validators=[django.core.validators.MinValueValidator(-90.0), django.core.validators.MaxValueValidator(90.0)])),
                 ('lon', models.FloatField(validators=[django.core.validators.MinValueValidator(-180.0), django.core.validators.MaxValueValidator(180.0)])),
-                ('subdivision', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, related_name='cities', to='manage_subdivisions.Subdivision')),
+                ('subdivision', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, related_name='cities', to='region.Subdivision')),
             ],
         ),
     ]

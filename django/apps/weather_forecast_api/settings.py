@@ -40,9 +40,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'manage_subdivisions',
     'rest_framework',
     'django_filters',
+    'region',
 ]
 
 MIDDLEWARE = [
@@ -85,12 +85,12 @@ WSGI_APPLICATION = 'weather_forecast_api.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'postgres',
-        'USER': 'postgres',
-        'PASSWORD': os.environ['POSTGRES_PASSWORD'],
-        'HOST': 'postgres',
-        'PORT': int(os.environ['POSTGRES_PORT']),
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': os.environ['MYSQL_DATABASE'],
+        'USER': os.environ['MYSQL_USER'],
+        'PASSWORD': os.environ['MYSQL_PASSWORD'],
+        'HOST': 'db',
+        'PORT': os.environ['MYSQL_PORT'],
     }
 }
 

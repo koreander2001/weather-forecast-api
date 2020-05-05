@@ -17,10 +17,7 @@ services:
       - TZ
     restart: always
   django:
-    build:
-      context: ./django
-      args:
-        - DJANGO_PROJECT_NAME
+    build: ./django
     expose:
       - 3031
     depends_on:
@@ -34,6 +31,8 @@ services:
       - MYSQL_DATABASE
       - MYSQL_USER
       - MYSQL_PASSWORD
+      - TZ
+      - DARKSKY_API_KEY
     restart: always
   nginx:
     image: nginx

@@ -3,4 +3,6 @@ djangorestframework>=3.11.0
 django-filter>=2.2.0
 gunicorn>=19.9.0
 mysqlclient>=1.4.4
+pandas>=1.0.1
+requests>=2.23.0
 

@@ -1,5 +1,7 @@
-/.env
-
-/dbdata/
-
 __pycache__/
+.mypy_cache/
+
+/.env
+/mysql/
+/test/
+

@@ -1,6 +1,6 @@
 [
   {
-    "model": "manage_subdivisions.subdivision",
+    "model": "region.subdivision",
     "pk": "JP-01",
     "fields": {
       "name": "Hokkaido",
@@ -8,7 +8,7 @@
     }
   },
   {
-    "model": "manage_subdivisions.subdivision",
+    "model": "region.subdivision",
     "pk": "JP-02",
     "fields": {
       "name": "Aomori",
@@ -16,7 +16,7 @@
     }
   },
   {
-    "model": "manage_subdivisions.subdivision",
+    "model": "region.subdivision",
     "pk": "JP-03",
     "fields": {
       "name": "Iwate",
@@ -24,7 +24,7 @@
     }
   },
   {
-    "model": "manage_subdivisions.subdivision",
+    "model": "region.subdivision",
     "pk": "JP-04",
     "fields": {
       "name": "Miyagi",
@@ -32,7 +32,7 @@
     }
   },
   {
-    "model": "manage_subdivisions.subdivision",
+    "model": "region.subdivision",
     "pk": "JP-05",
     "fields": {
       "name": "Akita",
@@ -40,7 +40,7 @@
     }
   },
   {
-    "model": "manage_subdivisions.subdivision",
+    "model": "region.subdivision",
     "pk": "JP-06",
     "fields": {
       "name": "Yamagata",
@@ -48,7 +48,7 @@
     }
   },
   {
-    "model": "manage_subdivisions.subdivision",
+    "model": "region.subdivision",
     "pk": "JP-07",
     "fields": {
       "name": "Fukushima",
@@ -56,7 +56,7 @@
     }
   },
   {
-    "model": "manage_subdivisions.subdivision",
+    "model": "region.subdivision",
     "pk": "JP-08",
     "fields": {
       "name": "Ibaraki",
@@ -64,7 +64,7 @@
     }
   },
   {
-    "model": "manage_subdivisions.subdivision",
+    "model": "region.subdivision",
     "pk": "JP-09",
     "fields": {
       "name": "Tochigi",
@@ -72,7 +72,7 @@
     }
   },
   {
-    "model": "manage_subdivisions.subdivision",
+    "model": "region.subdivision",
     "pk": "JP-10",
     "fields": {
       "name": "Gunma",
@@ -80,7 +80,7 @@
     }
   },
   {
-    "model": "manage_subdivisions.subdivision",
+    "model": "region.subdivision",
     "pk": "JP-11",
     "fields": {
       "name": "Saitama",
@@ -88,7 +88,7 @@
     }
   },
   {
-    "model": "manage_subdivisions.subdivision",
+    "model": "region.subdivision",
     "pk": "JP-12",
     "fields": {
       "name": "Chiba",
@@ -96,7 +96,7 @@
     }
   },
   {
-    "model": "manage_subdivisions.subdivision",
+    "model": "region.subdivision",
     "pk": "JP-13",
     "fields": {
       "name": "Tokyo",
@@ -104,7 +104,7 @@
     }
   },
   {
-    "model": "manage_subdivisions.subdivision",
+    "model": "region.subdivision",
     "pk": "JP-14",
     "fields": {
       "name": "Kanagawa",
@@ -112,7 +112,7 @@
     }
   },
   {
-    "model": "manage_subdivisions.subdivision",
+    "model": "region.subdivision",
     "pk": "JP-15",
     "fields": {
       "name": "Niigata",
@@ -120,7 +120,7 @@
     }
   },
   {
-    "model": "manage_subdivisions.subdivision",
+    "model": "region.subdivision",
     "pk": "JP-16",
     "fields": {
       "name": "Toyama",
@@ -128,7 +128,7 @@
     }
   },
   {
-    "model": "manage_subdivisions.subdivision",
+    "model": "region.subdivision",
     "pk": "JP-17",
     "fields": {
       "name": "Ishikawa",
@@ -136,7 +136,7 @@
     }
   },
   {
-    "model": "manage_subdivisions.subdivision",
+    "model": "region.subdivision",
     "pk": "JP-18",
     "fields": {
       "name": "Fukui",
@@ -144,7 +144,7 @@
     }
   },
   {
-    "model": "manage_subdivisions.subdivision",
+    "model": "region.subdivision",
     "pk": "JP-19",
     "fields": {
       "name": "Yamanashi",
@@ -152,7 +152,7 @@
     }
   },
   {
-    "model": "manage_subdivisions.subdivision",
+    "model": "region.subdivision",
     "pk": "JP-20",
     "fields": {
       "name": "Nagano",
@@ -160,7 +160,7 @@
     }
   },
   {
-    "model": "manage_subdivisions.subdivision",
+    "model": "region.subdivision",
     "pk": "JP-21",
     "fields": {
       "name": "Gifu",
@@ -168,7 +168,7 @@
     }
   },
   {
-    "model": "manage_subdivisions.subdivision",
+    "model": "region.subdivision",
     "pk": "JP-22",
     "fields": {
       "name": "Shizuoka",
@@ -176,7 +176,7 @@
     }
   },
   {
-    "model": "manage_subdivisions.subdivision",
+    "model": "region.subdivision",
     "pk": "JP-23",
     "fields": {
       "name": "Aichi",
@@ -184,7 +184,7 @@
     }
   },
   {
-    "model": "manage_subdivisions.subdivision",
+    "model": "region.subdivision",
     "pk": "JP-24",
     "fields": {
       "name": "Mie",
@@ -192,7 +192,7 @@
     }
   },
   {
-    "model": "manage_subdivisions.subdivision",
+    "model": "region.subdivision",
     "pk": "JP-25",
     "fields": {
       "name": "Shiga",
@@ -200,7 +200,7 @@
     }
   },
   {
-    "model": "manage_subdivisions.subdivision",
+    "model": "region.subdivision",
     "pk": "JP-26",
     "fields": {
       "name": "Kyoto",
@@ -208,7 +208,7 @@
     }
   },
   {
-    "model": "manage_subdivisions.subdivision",
+    "model": "region.subdivision",
     "pk": "JP-27",
     "fields": {
       "name": "Osaka",
@@ -216,7 +216,7 @@
     }
   },
   {
-    "model": "manage_subdivisions.subdivision",
+    "model": "region.subdivision",
     "pk": "JP-28",
     "fields": {
       "name": "Hyogo",
@@ -224,7 +224,7 @@
     }
   },
   {
-    "model": "manage_subdivisions.subdivision",
+    "model": "region.subdivision",
     "pk": "JP-29",
     "fields": {
       "name": "Nara",
@@ -232,7 +232,7 @@
     }
   },
   {
-    "model": "manage_subdivisions.subdivision",
+    "model": "region.subdivision",
     "pk": "JP-30",
     "fields": {
       "name": "Wakayama",
@@ -240,7 +240,7 @@
     }
   },
   {
-    "model": "manage_subdivisions.subdivision",
+    "model": "region.subdivision",
     "pk": "JP-31",
     "fields": {
       "name": "Tottori",
@@ -248,7 +248,7 @@
     }
   },
   {
-    "model": "manage_subdivisions.subdivision",
+    "model": "region.subdivision",
     "pk": "JP-32",
     "fields": {
       "name": "Shimane",
@@ -256,7 +256,7 @@
     }
   },
   {
-    "model": "manage_subdivisions.subdivision",
+    "model": "region.subdivision",
     "pk": "JP-33",
     "fields": {
       "name": "Okayama",
@@ -264,7 +264,7 @@
     }
   },
   {
-    "model": "manage_subdivisions.subdivision",
+    "model": "region.subdivision",
     "pk": "JP-34",
     "fields": {
       "name": "Hiroshima",
@@ -272,7 +272,7 @@
     }
   },
   {
-    "model": "manage_subdivisions.subdivision",
+    "model": "region.subdivision",
     "pk": "JP-35",
     "fields": {
       "name": "Yamaguchi",
@@ -280,7 +280,7 @@
     }
   },
   {
-    "model": "manage_subdivisions.subdivision",
+    "model": "region.subdivision",
     "pk": "JP-36",
     "fields": {
       "name": "Tokushima",
@@ -288,7 +288,7 @@
     }
   },
   {
-    "model": "manage_subdivisions.subdivision",
+    "model": "region.subdivision",
     "pk": "JP-37",
     "fields": {
       "name": "Kagawa",
@@ -296,7 +296,7 @@
     }
   },
   {
-    "model": "manage_subdivisions.subdivision",
+    "model": "region.subdivision",
     "pk": "JP-38",
     "fields": {
       "name": "Ehime",
@@ -304,7 +304,7 @@
     }
   },
   {
-    "model": "manage_subdivisions.subdivision",
+    "model": "region.subdivision",
     "pk": "JP-39",
     "fields": {
       "name": "Kochi",
@@ -312,7 +312,7 @@
     }
   },
   {
-    "model": "manage_subdivisions.subdivision",
+    "model": "region.subdivision",
     "pk": "JP-40",
     "fields": {
       "name": "Fukuoka",
@@ -320,7 +320,7 @@
     }
   },
   {
-    "model": "manage_subdivisions.subdivision",
+    "model": "region.subdivision",
     "pk": "JP-41",
     "fields": {
       "name": "Saga",
@@ -328,7 +328,7 @@
     }
   },
   {
-    "model": "manage_subdivisions.subdivision",
+    "model": "region.subdivision",
     "pk": "JP-42",
     "fields": {
       "name": "Nagasaki",
@@ -336,7 +336,7 @@
     }
   },
   {
-    "model": "manage_subdivisions.subdivision",
+    "model": "region.subdivision",
     "pk": "JP-43",
     "fields": {
       "name": "Kumamoto",
@@ -344,7 +344,7 @@
     }
   },
   {
-    "model": "manage_subdivisions.subdivision",
+    "model": "region.subdivision",
     "pk": "JP-44",
     "fields": {
       "name": "Oita",
@@ -352,7 +352,7 @@
     }
   },
   {
-    "model": "manage_subdivisions.subdivision",
+    "model": "region.subdivision",
     "pk": "JP-45",
     "fields": {
       "name": "Miyazaki",
@@ -360,7 +360,7 @@
     }
   },
   {
-    "model": "manage_subdivisions.subdivision",
+    "model": "region.subdivision",
     "pk": "JP-46",
     "fields": {
       "name": "Kagoshima",
@@ -368,7 +368,7 @@
     }
   },
   {
-    "model": "manage_subdivisions.subdivision",
+    "model": "region.subdivision",
     "pk": "JP-47",
     "fields": {
       "name": "Okinawa",

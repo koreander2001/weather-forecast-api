@@ -5,7 +5,7 @@ from django.core.management import call_command
 from django.db import migrations
 
 
-APP_LABEL = 'manage_subdivisions'
+APP_LABEL = 'region'
 
 
 def load_fixture(apps, schema_editor):

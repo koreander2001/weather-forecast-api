@@ -1,35 +1,40 @@
 version: '3'
 
 services:
-  postgres:
-    image: postgres
+  db:
+    image: mysql:5.7
+    command: mysqld --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci
     ports:
-      - $POSTGRES_PORT:5432
+      - $MYSQL_PORT:3306
     volumes:
-      - ./dbdata:/var/lib/postgresql/data
+        - ./mysql/my.cnf:/etc/mysql/my.cnf
+        - ./mysql/data:/var/lib/mysql
     environment:
-      - POSTGRES_PASSWORD
-  django:
+      - MYSQL_ROOT_PASSWORD
+      - MYSQL_DATABASE
+      - MYSQL_USER
+      - MYSQL_PASSWORD
+      - TZ
     restart: always
-    build:
-      context: ./django
-      args:
-        - DJANGO_PROJECT_NAME
-        - POSTGRES_PORT
-        - POSTGRES_PASSWORD
-    image: django-on-docker
+  django:
+    build: ./django
     expose:
       - 3031
     depends_on:
-      - postgres
+      - db
     command: bash -c "python manage.py migrate && gunicorn ${DJANGO_PROJECT_NAME}.wsgi -b 0.0.0.0:3031"
     volumes:
       - ./django/apps:/opt/apps/
       - ./staticdata:/opt/static/
     environment:
-      - POSTGRES_PASSWORD
-  nginx:
+      - MYSQL_PORT
+      - MYSQL_DATABASE
+      - MYSQL_USER
+      - MYSQL_PASSWORD
+      - TZ
+      - DARKSKY_API_KEY
     restart: always
+  nginx:
     image: nginx
     depends_on:
       - django
@@ -38,4 +43,5 @@ services:
     volumes:
       - ./nginx/:/etc/nginx/
       - ./staticdata:/opt/apps/static/
+    restart: always
 

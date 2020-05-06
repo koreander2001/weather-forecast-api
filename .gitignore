@@ -2,6 +2,6 @@ __pycache__/
 .mypy_cache/
 
 /.env
-/mysql/
+/mysql/data/
 /test/
 
